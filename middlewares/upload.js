@@ -5,7 +5,7 @@ const { uuid } = require('uuidv4');
 
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
-    const tempPath = path.join(__dirname, '../', process.env.LOCAL_BUCKET_NAME || 'storage', 'temp');
+    const tempPath = path.join(__dirname, '../', process.env.FOLDER || 'storage', 'temp');
     if(!fs.existsSync(tempPath)) {
       fs.mkdirSync(tempPath, {recursive: true})
     }

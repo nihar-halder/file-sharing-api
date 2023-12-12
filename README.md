@@ -30,11 +30,10 @@ The project is built using Node.js version 20.10.0.
    - Paste the copied content from `.env.example`.
    - Replace the placeholder values with your actual values.
 
-Example:
-   ** .env
+## Example: .env
    - MONGODB_HOST=mongodb://localhost:27017/fileSharingDB
    - PROVIDER=local # local | google
-   - LOCAL_BUCKET_NAME=storage
+   - FOLDER=storage
    - CRYPTO_KEY=your_actual_crypto_key
    - MAX_FILE_SIZE_LIMIT=2097152 #2MB (in bytes)
    - RATE_LIMIT_IN_HOUR=100  # Example value, replace with your desired limit

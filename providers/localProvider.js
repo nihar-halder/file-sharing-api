@@ -8,7 +8,7 @@ const mongoose = require('mongoose');
 
 class LocalProvider {
   constructor() {
-    this.uploadPath = process.env.LOCAL_BUCKET_NAME + '/files'
+    this.uploadPath = process.env.FOLDER + '/files'
   }
   
   uploadFile(req, res) {
