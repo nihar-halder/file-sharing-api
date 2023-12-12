@@ -32,14 +32,14 @@ The project is built using Node.js version 20.10.0.
 
 Example:
    # .env
-   MONGODB_HOST=mongodb://localhost:27017/fileSharingDB
-   PROVIDER=your_actual_provider
-   LOCAL_BUCKET_NAME=local # local | google
-   CRYPTO_KEY=your_actual_crypto_key
-   MAX_FILE_SIZE_LIMIT=2097152 #2MB (in bytes)
-   RATE_LIMIT_IN_HOUR=100  # Example value, replace with your desired limit
-   STORAGE_CLEAN_JOB_SCHEDULE='0 20 17 * * *' # 5:30PM
-   INACTIVE_FILE_PERIOD=-30  # Example value, replace with your desired period
+   - MONGODB_HOST=mongodb://localhost:27017/fileSharingDB
+   - PROVIDER=your_actual_provider
+   - LOCAL_BUCKET_NAME=local # local | google
+   - CRYPTO_KEY=your_actual_crypto_key
+   - MAX_FILE_SIZE_LIMIT=2097152 #2MB (in bytes)
+   - RATE_LIMIT_IN_HOUR=100  # Example value, replace with your desired limit
+   - STORAGE_CLEAN_JOB_SCHEDULE='0 20 17 * * *' # 5:30PM
+   - INACTIVE_FILE_PERIOD=-30  # Example value, replace with your desired period
 
 ### Scripts
 
